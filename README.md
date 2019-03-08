@@ -1,2 +1,2 @@
 # FutterAppTemplate
-A flutter application template I designed myself.
+A Flutter application template I designed myself.
