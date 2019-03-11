@@ -32,6 +32,9 @@ class _HomePageState extends State<HomePage>
           IconButton(icon: Icon(Icons.share), onPressed: () {
             Navigator.pushNamed(context, 'cgs/test');
           }),
+          IconButton(icon: Icon(Icons.share), onPressed: () {
+            Navigator.pushNamed(context, 'cgs/web');
+          }),
         ],
         bottom: TabBar(
           tabs: tabs.map((e) {

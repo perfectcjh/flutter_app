@@ -26,6 +26,7 @@ dependencies:
   image_picker: ^0.5.0
   english_words: ^3.1.0
   pull_to_refresh: ^1.1.6
+  flutter_webview_plugin: ^0.3.0
 
 dev_dependencies:
   flutter_test:

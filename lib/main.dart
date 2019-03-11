@@ -4,6 +4,7 @@ import 'package:flutter_app_template/root_page.dart';
 import 'package:flutter_app_template/pages/test_page.dart';
 import 'package:flutter_app_template/pages/login_page.dart';
 import 'package:flutter_app_template/pages/home_page.dart';
+import 'package:flutter_app_template/pages/web_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       'cgs/test': (BuildContext context) => TestPage(),
       'cgs/login': (BuildContext context) => LoginPage(),
       'cgs/home': (BuildContext context) => HomePage(),
+      'cgs/web': (BuildContext context) => WebPage("http://www.baidu.com", "title"),
     };
   }
 }
