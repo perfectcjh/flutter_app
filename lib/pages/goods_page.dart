@@ -50,4 +50,5 @@ class GoodsPageState extends State<GoodsPage> with SingleTickerProviderStateMixi
             );
           }).toList()),
     );
+  }
 }

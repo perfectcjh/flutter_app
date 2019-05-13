@@ -77,8 +77,8 @@ class ActivityPageState extends State<ActivityPage> {
     setState(() {});
   }
 
-  Widget _refreshHeader(context, mode) {
-    return ClassicIndicator(
+  Widget _refreshHeader(BuildContext context, RefreshStatus mode) {
+    return ClassicHeader(
       mode: mode,
       height: 45.0,
       idleText: '下拉刷新',
@@ -89,8 +89,8 @@ class ActivityPageState extends State<ActivityPage> {
     );
   }
 
-  Widget _refreshFooter(context, mode) {
-    return ClassicIndicator(
+  Widget _refreshFooter(BuildContext context, RefreshStatus mode) {
+    return ClassicFooter(
       mode: mode,
       height: 45.0,
       idleText: '上拉加载',
